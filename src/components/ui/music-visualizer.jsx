@@ -1,13 +1,7 @@
 import React from "react";
 import { cn } from "@/lib/utils";
 
-interface MusicVisualizerProps {
-  className?: string;
-  isPlaying?: boolean;
-  bars?: number;
-}
-
-export const MusicVisualizer: React.FC<MusicVisualizerProps> = ({
+export const MusicVisualizer = ({
   className,
   isPlaying = false,
   bars = 5,

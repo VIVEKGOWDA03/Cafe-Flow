@@ -64,7 +64,7 @@ const Index = () => {
             
             <div className="mt-8">
               <TabsContent value="qr-scanner" className="space-y-4">
-                <QRScanner />
+                {/* <QRScanner /> */}
               </TabsContent>
               
               <TabsContent value="music-queue" className="space-y-4">
